@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Origin Fabric Studio</title>
+    <link rel="preload" href="assets/intro-fiber.mp4" as="video" type="video/mp4" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" aria-label="Primary navigation">
+      <a class="brand-mark" href="#hero" aria-label="Origin Fabric Studio home">
+        <img src="assets/origin-logo-white.png" alt="Origin Fabric Studio" />
+      </a>
+      <nav class="nav-links">
+        <a href="#who">Who We Are</a>
+        <a href="#why">Why We Exist</a>
+        <a href="#project">Project</a>
+        <a href="#materials">Materials</a>
+        <a href="#approach">Approach</a>
+      </nav>
+      <p class="header-note">Beyond Cotton</p>
+    </header>
+
+    <main>
+      <section class="hero-section focus-section is-focused" id="hero" data-theme="dark">
+        <video
+          class="hero-video"
+          src="assets/intro-fiber.mp4"
+          autoplay
+          muted
+          playsinline
+          loop
+          preload="auto"
+          poster="assets/hero-fiber.jpg"
+          aria-label="Macro video of pineapple leaf texture and fibers"
+        ></video>
+        <div class="hero-shade" aria-hidden="true"></div>
+        <div class="hero-content">
+          <p class="section-label">Who We Are</p>
+          <h1>Materials begin before fabric.</h1>
+          <p>
+            Origin Fabric Studio is a material-focused textile brand exploring new sources beyond cotton.
+          </p>
+          <p>
+            We look at where fabric begins: in plants, in fibers, in agricultural by-products,
+            and in the hidden stories behind materials.
+          </p>
+        </div>
+        <button class="hero-scroll" type="button" data-scroll-target="#who" aria-label="Explore the story">
+          Explore the Story
+        </button>
+      </section>
+
+      <section class="who-section focus-section" id="who" data-theme="light">
+        <div class="section-frame split-frame">
+          <div>
+            <p class="section-label">Who We Are</p>
+            <h2>We make material origins visible.</h2>
+          </div>
+          <div class="body-copy">
+            <p>Origin Fabric Studio explores the beginning of textiles.</p>
+            <p>
+              Before a fabric becomes a surface, it has a source. It may begin in a plant,
+              a leaf, a stem, a fruit by-product or a fiber system.
+            </p>
+            <p>We are here to rethink what textiles can begin with.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="do-section focus-section" id="what-we-do" data-theme="dark">
+        <div class="section-frame">
+          <p class="section-label">What We Do</p>
+          <div class="do-grid">
+            <div>
+              <h2>We explore plant-based and by-product textile materials.</h2>
+              <p>
+                Some materials begin as crops. Some begin as waste that already exists.
+                Our aim is to turn these hidden sources into clear and useful material stories.
+              </p>
+            </div>
+            <ul class="focus-list" aria-label="Origin material focus">
+              <li>Pineapple leaf fiber</li>
+              <li>Hemp</li>
+              <li>Citrus-based fibers</li>
+              <li>Agricultural by-products</li>
+              <li>Alternative textile surfaces</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="why-section focus-section" id="why" data-theme="light">
+        <div class="section-frame">
+          <div class="why-intro">
+            <p class="section-label">Why We Exist</p>
+            <h2>Cotton is not the only beginning.</h2>
+            <p>
+              Cotton is one of the most common textile fibers in the world. It is used in T-shirts,
+              shirts, denim, home textiles and many everyday fabrics.
+            </p>
+            <p>
+              But cotton production can also be connected to high water demand, farming pressure,
+              chemicals and wastewater. That is why material choice matters.
+            </p>
+          </div>
+
+          <div class="water-story" aria-label="The water behind cotton">
+            <div class="water-copy">
+              <p class="section-label">The Water Behind Cotton</p>
+              <h3>Water is part of the material story.</h3>
+              <p>
+                A T-shirt is not only a product. It is also a material journey.
+              </p>
+            </div>
+            <div class="water-graphic is-focusing" data-focus="world" aria-label="World water, freshwater and human accessible water comparison">
+              <div class="water-illustration" aria-label="Interactive circular water share infographic">
+                <div class="water-lab" data-water-lab data-water-active="world">
+                  <div class="water-orb" aria-label="Selected water share visual" data-water-orb style="--active-angle: 360deg; --active-color: #8aafdd">
+                    <span class="water-sweep" aria-hidden="true"></span>
+                    <span class="water-value" data-water-value>100%</span>
+                    <small data-water-label>Dünyadaki su miktarı</small>
+                    <div class="water-mini-stats" aria-label="Water data layers">
+                      <button class="is-active" type="button" data-water-option data-focus="world" data-water-value="100" data-water-label="Dünyadaki su miktarı" data-water-color="#8aafdd" aria-label="Show world water amount">
+                        <b>100%</b>
+                        <em>World</em>
+                      </button>
+                      <button type="button" data-water-option data-focus="fresh" data-water-value="2.5" data-water-label="Temiz su miktarı" data-water-color="#2e4896" aria-label="Show freshwater amount">
+                        <b>2.5%</b>
+                        <em>Fresh</em>
+                      </button>
+                      <button type="button" data-water-option data-focus="human" data-water-value="0.3" data-water-label="İnsanların erişebildiği kısmı" data-water-color="#d1e62c" aria-label="Show human accessible water amount">
+                        <b>0.3%</b>
+                        <em>Reach</em>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="water-scale" aria-label="Water amount labels from largest to smallest">
+                <button class="water-scale-item is-active" type="button" data-focus="world">
+                  Dünyadaki su miktarı
+                </button>
+                <button class="water-scale-item" type="button" data-focus="fresh">
+                  Temiz su miktarı
+                </button>
+                <button class="water-scale-item" type="button" data-focus="human">
+                  İnsanların erişebildiği kısmı
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="comparison-panel" aria-label="Small fiber comparison">
+            <p class="section-label">Small Fiber Comparison</p>
+            <div class="fiber-chart">
+              <article class="fiber-row cotton" style="--water-level: 100%">
+                <figure>
+                  <img src="assets/cotton-bolls-generated-web.jpg" alt="Generated cotton bolls in a cotton field" />
+                </figure>
+                <div class="fiber-info">
+                  <span>Cotton Textile</span>
+                  <div class="fiber-track" aria-hidden="true"><i></i></div>
+                  <p>Approx. water for a 180 g textile product.</p>
+                </div>
+                <strong>1,797 L</strong>
+              </article>
+              <article class="fiber-row hemp" style="--water-level: 28%">
+                <figure>
+                  <img src="assets/fiber-process-web.jpg" alt="Plant fiber processing representing hemp textile material" />
+                </figure>
+                <div class="fiber-info">
+                  <span>Hemp Textile</span>
+                  <div class="fiber-track" aria-hidden="true"><i></i></div>
+                  <p>Approx. water for a 180 g textile product.</p>
+                </div>
+                <strong>508 L</strong>
+              </article>
+              <article class="fiber-row pineapple" style="--water-level: 2%">
+                <figure>
+                  <img src="assets/pineapple-fiber-hand-web.jpg" alt="Pineapple leaf fiber held by hand" />
+                </figure>
+                <div class="fiber-info">
+                  <span>Pineapple Leaf Fiber</span>
+                  <div class="fiber-track" aria-hidden="true"><i></i></div>
+                  <p>Marginal process water in a by-product system.</p>
+                </div>
+                <strong>2-4 L</strong>
+              </article>
+            </div>
+            <p class="fine-print">
+              Pineapple leaf fiber is made from leaves left after pineapple fruit production.
+              This number is based on marginal process water in a by-product system, so it should not
+              be read as a direct one-to-one cotton replacement claim.
+            </p>
+            <p class="comparison-caption">There is no single perfect fiber. But there are better questions.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="project-section focus-section" id="project" data-theme="dark">
+        <div class="project-media" aria-hidden="true"></div>
+        <div class="project-copy">
+          <p class="section-label">Featured Project</p>
+          <h2>The Classroom Curtain Project</h2>
+          <p>
+            A biofiber-based curtain concept designed for schools in cotton-producing regions facing water stress.
+          </p>
+          <p>The curtain works as both a shade system and a learning surface.</p>
+          <p>A daily classroom object becomes a quiet lesson about water, materials and choices.</p>
+        </div>
+      </section>
+
+      <section class="curtain-section focus-section" data-theme="light">
+        <div class="section-frame split-frame">
+          <div>
+            <p class="section-label">Project Idea</p>
+            <h2>Why a classroom curtain?</h2>
+          </div>
+          <div class="body-copy">
+            <p>
+              This project begins in cotton-growing regions where water stress is part of everyday life.
+            </p>
+            <p>
+              In some places, large amounts of water are used for cotton farming while local communities
+              still struggle to access clean water.
+            </p>
+            <p>
+              Origin Fabric Studio responds through a classroom curtain: a useful gift for schools and
+              a quiet learning surface that introduces children to biofibers grown around their own region.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="materials-section focus-section" id="materials" data-theme="dark">
+        <div class="section-frame">
+          <div class="materials-head">
+            <div>
+              <p class="section-label">What We Explore</p>
+              <h2>Fibers, by-products and alternative surfaces.</h2>
+            </div>
+          </div>
+
+          <div class="material-cases" aria-label="Material explorations">
+            <article class="material-case is-active" data-image="assets/pineapple-fiber-hand-web.jpg">
+              <span>01</span>
+              <h3>Pineapple Leaf Fiber</h3>
+              <p>Made from leaves left after pineapple fruit production.</p>
+              <p>It can be explored for leather-like surfaces, bags, shoes, accessories and textile samples.</p>
+              <strong>A leaf becomes a fiber.</strong>
+            </article>
+            <article class="material-case" data-image="assets/fiber-process-web.jpg">
+              <span>02</span>
+              <h3>Hemp</h3>
+              <p>A plant-based fiber known for lower water demand compared to cotton in comparative studies.</p>
+              <p>It can be explored for T-shirts, shirts, trousers, jackets, bags and home textiles.</p>
+              <strong>A crop becomes a durable textile.</strong>
+            </article>
+            <article class="material-case" data-image="assets/biofiber-still-life-web.jpg">
+              <span>03</span>
+              <h3>Citrus-Based Fibers</h3>
+              <p>Made from citrus by-products left after juice production.</p>
+              <p>They can be explored for lightweight fabrics, soft textile surfaces, scarves, shirts and fashion textiles.</p>
+              <strong>Fruit waste becomes a textile source.</strong>
+            </article>
+          </div>
+
+          <figure class="material-preview">
+            <img src="assets/pineapple-fiber-hand-web.jpg" alt="Pineapple leaf fibers held by hand" />
+          </figure>
+
+          <div class="uses-section">
+            <p class="section-label">What Can Biofibers Become?</p>
+            <div class="uses-grid">
+              <article>
+                <h3>Clothing</h3>
+                <p>T-shirts, shirts, jackets, trousers</p>
+              </article>
+              <article>
+                <h3>Accessories</h3>
+                <p>Bags, shoes, wallets, cases</p>
+              </article>
+              <article>
+                <h3>Surfaces</h3>
+                <p>Leather alternatives, textile samples, nonwoven sheets</p>
+              </article>
+              <article>
+                <h3>Interiors</h3>
+                <p>Curtains, panels, upholstery and soft surfaces</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="approach-section focus-section" id="approach" data-theme="light">
+        <div class="section-frame approach-frame">
+          <div>
+            <p class="section-label">Our Approach</p>
+            <h2>Research before claims.</h2>
+          </div>
+          <div class="approach-copy">
+            <p>We do not believe in one miracle fiber.</p>
+            <p>A material is not better only because it is natural.</p>
+            <p>Its impact depends on where it comes from, how much water it needs, how it is processed, and what it becomes.</p>
+            <p>Origin Fabric Studio looks at materials with curiosity and honesty.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="mission-section focus-section" id="contact" data-theme="dark">
+        <div class="section-frame mission-frame">
+          <div>
+            <p class="section-label">Our Mission</p>
+            <h2>Make hidden material stories visible.</h2>
+            <p>
+              We explore biofiber sources that can offer alternatives to cotton. We look at plant-based fibers,
+              agricultural by-products and new textile surfaces.
+            </p>
+            <p>Some materials begin from crops. Some begin from waste that already exists.</p>
+          </div>
+          <div class="contact-links">
+            <a href="mailto:hello@originfabricstudio.com">hello@originfabricstudio.com</a>
+            <a href="https://www.instagram.com/originfabricstudio" target="_blank" rel="noreferrer">
+              @originfabricstudio
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
