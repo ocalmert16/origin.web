@@ -73,19 +73,19 @@ const waterOrbOptions = waterLab ? [...waterLab.querySelectorAll("[data-water-op
 const waterStates = {
   world: {
     value: 100,
-    label: "Dünyadaki su miktarı",
+    label: "Total water on Earth",
     color: "#8aafdd",
     angle: 360,
   },
   fresh: {
     value: 2.5,
-    label: "Temiz su miktarı",
+    label: "Freshwater amount",
     color: "#2e4896",
     angle: 9,
   },
   human: {
     value: 0.3,
-    label: "İnsanların erişebildiği kısmı",
+    label: "Human-accessible water",
     color: "#d1e62c",
     angle: 2.5,
   },
